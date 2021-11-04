@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body {
+  background: linear-gradient(164deg, #8ae8f1, #564883);
+
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 2px;
+}
+
+.profile-picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 10%;
+  height: auto;
+  max-width: 100px;
+
+  border-radius: 50%;
+  border: 3px solid #f8f9fa; 
+}
+
+.profile-name {
+  text-align: center;
+
+  padding: 30px;
+  font-size: 28px;
+}
+
+.links {
+  text-align: center;
+  margin-top: 20px;
+  border: 1px solid #7071FF;
+  border-width: 2px;
+  padding: 20px;
+  width: 290px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+  color: #e9edfb;
+  transition: color 2s;
+}
+
+a:hover {
+  background: #e9edfb;
+  color: #7071FF;
+}
+.credit {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  padding-top: 2.5rem;
+  font-size: 16px;
+  color: #e9ecef;
+  border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+}
+.garistepi{
+    padding: 0px 0;
+    border-top: 3px solid #C7C7C7;
+    position: center;
+    margin-top: 30px;
+}
